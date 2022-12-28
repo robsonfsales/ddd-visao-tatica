@@ -1,5 +1,5 @@
 import CustomerAddressChangedEvent from "../customer/customer-address-change.event";
-import ConsoleLogWhenCostumerAddressIsChangedHandler from "../customer/handler/console-log-customer-address-is-changed.handler copy";
+import ConsoleLogWhenCostumerAddressIsChangedHandler from "../customer/handler/console-log-customer-address-is-changed.handler";
 import EventDispatcher from "./event-dispatcher";
 
 describe("Domain customer address changed events tests", () => {
